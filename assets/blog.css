@@ -1,0 +1,15 @@
+img.img-round {
+  border-radius: 50%;
+}
+
+img.me-img {
+  max-width: 130px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer .me-img {
+  max-width: 75px;
+}

@@ -31,6 +31,19 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: []
+  layouts:
+    category: 'category'
+    tag: 'category'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -21,12 +21,13 @@ I developed monolith applications as well as systems systems utilizing SOA (serv
 I enjoy working on complex user interfaces. JavaScript has been in my toolset from the very beginnings of my professional jurney.
 
 I'm always trying to pick "right tool for the job". Below list of tools I like to use:
+- Ruby on Rails
 - PostgreSQL
 - ElasticSearch
+- Vue.js
 - ZMQ
 - NodeJS
 - Redis
-
 
 
 [ise]: http://isengineering.com/

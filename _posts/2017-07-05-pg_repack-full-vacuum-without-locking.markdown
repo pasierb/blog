@@ -2,11 +2,12 @@
 layout: post
 title:  "pg_repack - full vacuum without table lock "
 date:   2017-07-05 16:13:13 +0200
-categories: postgresql
+categories:
+- postgresql
 ---
 
-In PostgreSQL, an UPDATE or DELETE of a row does not immediately remove the old version of the row.
-If you have application that does this massive batch UPDATEs or DELETEs your __database can grow in size__ pretty quickly.
+In __PostgreSQL__, an UPDATE or DELETE of a row does not immediately remove the old version of the row.
+If you have application that does this massive batch UPDATEs or DELETEs your database can __grow in size pretty quickly__.
 
 At [ISE][ise] we develop plant performance monitoring application which collects hundreds (somtimes > 1000) of data counters ever minute.
 This "minute-by-minute" data is later compressed into hourly slots.
