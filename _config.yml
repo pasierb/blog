@@ -22,6 +22,8 @@ email: mpasierbski@gmail.com
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mpasierbski
 github_username:  pasierb
+disqus:
+  shortname: mpasierbski-blog
 
 # Build settings
 markdown: kramdown
