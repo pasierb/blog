@@ -6,15 +6,15 @@ categories: postgresql
 ---
 
 In PostgreSQL, an UPDATE or DELETE of a row does not immediately remove the old version of the row.
-If you have application that does this massive batch UPDATEs or DELETEs your database can grow in size pretty quickly.
+If you have application that does this massive batch UPDATEs or DELETEs your __database can grow in size__ pretty quickly.
 
 At [ISE][ise] we develop plant performance monitoring application which collects hundreds (somtimes > 1000) of data counters ever minute.
 This "minute-by-minute" data is later compressed into hourly slots.
 This process involves massive DELETE operations every hour.
 
-To reclaim disk space you need FULL VACUUM, but it locks tables which is a huge "no no" in 24-7-365 industry monitoring application.
+To reclaim disk space you need __FULL VACUUM__, but it __locks tables__ which is a huge "no no" in 24-7-365 industry monitoring application.
 
-[pg_repack][pg_repack] is a PostgreSQL extension tool that can do pretty much what FULL VACUUM does without locking (minimum locking to be precise).
+__[pg_repack][pg_repack]__ is a PostgreSQL extension tool that can do pretty much what FULL VACUUM does __without locking__ (minimum locking to be precise).
 
 ### Installation
 
