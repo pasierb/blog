@@ -18,7 +18,13 @@ Apart of giving you clear tasks to focus on, it deals with __"quilt"__ problem g
 Additionally, if you compose this TODO __before going to bed__ your brain will subconsciously start processing those tasks.
 Who knows, maybe you will wake up with one of those "Eureka!" moments ;)
 
-Couple of key points:
+### Couple of key points:
 - divide long, complicated probles into __small, managable tasks__
 - put them in order: __most difficult -> least difficult__. It's easier to handle hard problems in the morning when distractions have not piled up yet.
 - __keep the list short__, going home with unfinished list may cause feeling of guilt instead of eliminating it
+
+Sources:
+- [A Mind for Numbers: How to Excel at Math and Science][mind_for_number] by Barbara Oakley, Ph.D.
+
+
+[mind_for_number]: https://www.amazon.com/Mind-Numbers-Science-Flunked-Algebra/dp/039916524X
