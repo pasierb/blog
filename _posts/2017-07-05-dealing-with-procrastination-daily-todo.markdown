@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dealing with procrastination - daily TODO"
+title:  "Dealing with procrastination #1 - daily TODO"
 date:   2017-07-05 20:00:00 +0200
 categories:
 - self improvement

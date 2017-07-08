@@ -42,7 +42,14 @@ P.S.
 
 Of course it does not mean that you should abbandon your regulary scheduled vacuumimg and reindexing!
 
+Sources:
+- [PostgreSQL rutine vacuuming documentation][postgresql_rutine_vacuuming]
+- [PostgreSQL vacuum documentation][postgresql_vacuum]
+- [pg_repack github project][pg_repack]
+- [pg_repack pgxn site][pg_repack_source]
+
+
 [pg_repack]: https://github.com/reorg/pg_repack
 [pg_repack_source]: https://pgxn.org/dist/pg_repack/
-[ise]: http://isengineering.com/
 [postgresql_rutine_vacuuming]: https://www.postgresql.org/docs/9.2/static/routine-vacuuming.html
+[postgresql_vacuum]: https://www.postgresql.org/docs/9.1/static/sql-vacuum.html
