@@ -24,10 +24,10 @@ layout: default
             <h2>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
             </h2>
-            <a href="{{ post.url | relative_url }}#disqus_thread"></a>
             <p>
               {{ post.excerpt }}
             </p>
+            <a href="{{ post.url | relative_url }}#disqus_thread"></a>
           </li>
         {% endfor %}
       </ul>
