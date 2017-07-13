@@ -22,7 +22,7 @@ layout: default
             </div>
 
             <h2>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+              <a class="post-link" href="{{ post.url | relative_url }}##disqus_thread">{{ post.title | escape }}</a>
             </h2>
             <p>
               {{ post.excerpt }}
@@ -40,3 +40,5 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
+
+<script id="dsq-count-scr" src="//EXAMPLE.disqus.com/count.js" async></script>
