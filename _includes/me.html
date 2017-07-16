@@ -19,6 +19,12 @@
     </li>
     {% endif %}
 
+    {% if site.linkedin_username %}
+    <li>
+      {% include icon-linkedin.html username=site.linkedin_username %}
+    </li>
+    {% endif %}
+
     {% if site.email %}
       <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
     {% endif %}

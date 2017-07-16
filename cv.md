@@ -10,6 +10,7 @@ mobile: +41 076 295 38 84;
 email: [mpasierbski@gmail.com](mailto:mpasierbski@gmail.com);  
 twitter: [@mpasierbski](https://twitter.com/mpasierbski);  
 github: [pasierb](https://github.com/pasierb);  
+linkedin: [mpasierbski](https://www.linkedin.com/in/mpasierbski/);  
 33 years old, always looking to improve and find more efficient ways to solve problems.;  
 
 ## Experience;
