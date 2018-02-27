@@ -1,4 +1,6 @@
 ---
+pages:
+- newone.md
 hide_body: false
 fields:
 - type: image_gallery
