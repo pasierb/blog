@@ -2,8 +2,7 @@
 layout: post
 title:  "pg_repack - full vacuum without table lock "
 date:   2017-07-05 16:13:13 +0200
-categories:
-- postgresql
+tags: [sql]
 ---
 
 In __PostgreSQL__, an UPDATE or DELETE of a row does not immediately remove the old version of the row.

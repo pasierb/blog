@@ -1,11 +1,7 @@
 ---
 layout: post
 title:  "Dealing with procrastination #2 - pomodoro"
-date:   2017-07-10 20:00:00 +0200
-categories:
-- self improvement
-tags:
-- procrastination
+tags: [productivity]
 ---
 
 __Work__ for __25__ minutes, __rest 5__.
