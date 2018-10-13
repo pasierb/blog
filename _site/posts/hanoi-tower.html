@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>dev.log | Algorithms day 1 - Hanoi towers</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Algorithms day 1 - Hanoi towers">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/posts/hanoi-tower">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="dev.log">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="http://localhost:4000/posts/hanoi-tower">
+  <meta name="twitter:title" content="Algorithms day 1 - Hanoi towers">
+  <meta name="twitter:description" content="">
+
+  
+    <meta property="og:image" content="http://localhost:4000/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+    <meta name="twitter:image" content="http://localhost:4000/assets/og-image-ee46bbc61b334e821e81534b1fd43f3fee6f020ec174b3c2114445695fd48c01.jpg">
+  
+
+  <link href="http://localhost:4000/feed.xml" type="application/rss+xml" rel="alternate" title="dev.log Last 10 blog posts" />
+
+  
+
+  
+    <link rel="icon" type="image/x-icon" href="/assets/favicon-light-a98c41efc5ed9fcc06ac664c9e2f7a9b3c3b2e0a52357d221fe382f6f4abc8fc.ico">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon-light-87d1f2a3a19b1500e5c1626a0492025ca5f7f97d24540dc5900288e92112925a.png">
+    <link rel="stylesheet" type="text/css" href="/assets/light-b34f12b58415aa3a5f6cf5f4caec8a9f2971a5aba876b1956e66ddb8dc92581f.css">
+  
+</head>
+
+<body>
+  <main>
+    <div class="grid grid-centered">
+      <div class="grid-cell">
+        <nav class="header-nav ">
+  <a href="/" class="header-logo" title="dev.log">dev.log</a>
+  <ul class="header-links">
+    
+    
+      <li>
+        <a href="https://twitter.com/mpasierbski" rel="noreferrer noopener" target="_blank" title="Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-twitter">
+  <use href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter" xlink:href="/assets/twitter-8842c33965263ad1b03a978406826677a668f94125d5837e70ab83f24b3213a7.svg#icon-twitter"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+      <li>
+        <a href="https://github.com/pasierb" rel="noreferrer noopener" target="_blank" title="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-github">
+  <use href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github" xlink:href="/assets/github-094f81040819f34343ee6ffff0980f17e2807b08b595eaaf66ae3554934fd78d.svg#icon-github"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="https://www.linkedin.com/in/mpasierbski" rel="noreferrer noopener" target="_blank" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-linkedin">
+  <use href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin" xlink:href="/assets/linkedin-cdc5c107044324a3dfbea2e9ead15873f8dee304c37d73a046988956b706256e.svg#icon-linkedin"></use>
+</svg>
+
+        </a>
+      </li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <li>
+        <a href="/feed.xml" rel="noreferrer noopener" target="_blank" title="RSS">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon-rss">
+  <use href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss" xlink:href="/assets/rss-541ec5cea9cefd10d2fcfec01888f3f231a8829940249835fa7b7b3a12ae0d0d.svg#icon-rss"></use>
+</svg>
+
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+        <article class="article ">
+          <header class="article-header">
+            <h1>Algorithms day 1 - Hanoi towers</h1>
+            <p></p>
+            <div class="article-list-footer">
+              <span class="article-list-date">
+                July 9, 2017
+              </span>
+              <span class="article-list-divider">-</span>
+              <span class="article-list-minutes">
+                
+                
+                  3 minute read
+                
+              </span>
+              <span class="article-list-divider">-</span>
+              <div class="article-list-tags">
+                
+                  <a href="/tag/algorithms">algorithms</a>
+                
+              </div>
+            </div>
+          </header>
+
+          <div class="article-content">
+            <p>To undetstand recursion, You must first undestand recursion</p>
+
+<blockquote>
+
+  <p>The Tower of Hanoi (also called the Tower of Brahma or Lucas’ Tower[1] and sometimes pluralized) is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod.<br />
+The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape.<br />
+The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:</p>
+  <ul>
+    <li>Only one disk can be moved at a time.</li>
+    <li>Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.</li>
+    <li>No disk may be placed on top of a smaller disk.</li>
+  </ul>
+</blockquote>
+
+<p>Hanoi tower is a hard problem to get your head around at first (even at second and third..).
+I would even argue that’s nearly impossible unless you split it into simple, easy to grasp steps.
+Let’s build our solution from the easiest case up.</p>
+
+<h4 id="height--1">Height = 1</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1
+_ _ _
+A B C
+</code></pre></div></div>
+
+<p>This is trivial case (yet important) case. We need just on move:</p>
+<ol>
+  <li>“1” from A to C</li>
+</ol>
+
+<h4 id="height--2">Height = 2</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1
+2
+_ _ _
+A B C
+</code></pre></div></div>
+
+<p>With only 2 blocks problem get much more complicated comparing to 1.</p>
+<ol>
+  <li>“1” from A to B</li>
+  <li>“2” from A to C</li>
+  <li>“1” from B to C</li>
+</ol>
+
+<h4 id="height--3">Height = 3</h4>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1
+2
+3
+_ _ _
+A B C
+</code></pre></div></div>
+
+<ol>
+  <li>“1” from A to C</li>
+  <li>“2” from A to B</li>
+  <li>“1” from C to B</li>
+  <li>“3” from A to C</li>
+  <li>“1” from B to A</li>
+  <li>“2” from B to C</li>
+  <li>“1” from A to C</li>
+</ol>
+
+<h3 id="breakdown">Breakdown</h3>
+
+<p>Let’s say that “n” is our tower height and  A,B,C are our tower names, we can breakdown solution as following:</p>
+<ol>
+  <li>Move all but largest block (n-1) from A to C using B</li>
+  <li>Move largest block from A to C</li>
+  <li>Move all but largest block (n-1) from B to A using C</li>
+</ol>
+
+<p>What daoes it mean?</p>
+
+<p>From simple cases we know how to move blocks from one tower to another using helper tower.
+Once this is done, we need to move largets block to destnation tower and start process all over again to move blocks from helper tower to destination tower.
+It’s a beatiful example of recursive solution!</p>
+
+<p>It can take some time to get your head around Hanoi towers problem at first.</p>
+
+<h3 id="solution">Solution</h3>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">move</span><span class="p">(</span><span class="n">rings</span><span class="p">:,</span> <span class="n">from</span><span class="p">:,</span> <span class="n">to</span><span class="p">:,</span> <span class="n">other</span><span class="p">:)</span>
+  <span class="k">if</span> <span class="n">rings</span> <span class="o">&gt;</span> <span class="mi">0</span>
+    <span class="n">move</span><span class="p">(</span><span class="ss">rings: </span><span class="n">rings</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="ss">from: </span><span class="n">from</span><span class="p">,</span> <span class="ss">to: </span><span class="n">other</span><span class="p">,</span> <span class="ss">other: </span><span class="n">to</span><span class="p">)</span>
+    <span class="n">to</span><span class="p">.</span><span class="nf">push</span><span class="p">(</span><span class="n">from</span><span class="p">.</span><span class="nf">pop</span><span class="p">)</span>
+    <span class="n">move</span><span class="p">(</span><span class="ss">rings: </span><span class="n">rings</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="ss">from: </span><span class="n">other</span><span class="p">,</span> <span class="ss">to: </span><span class="n">to</span><span class="p">,</span> <span class="ss">other: </span><span class="n">from</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+</code></pre></div></div>
+
+<p>You can find full solution at <a href="https://github.com/pasierb/100_days_of_algorithms/tree/master/day_01_hanoi_tower">github</a></p>
+
+<p>Next is “Matrix chain multiplication”</p>
+
+<p>Sources:</p>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Wikipedia</a></li>
+</ul>
+
+
+          </div>
+          <div class="article-share">
+            
+            
+            <a href="https://twitter.com/home?status=Algorithms+day+1+-+Hanoi+towers%20-%20http://localhost:4000/posts/hanoi-tower%20by%20@mpasierbski" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6 -18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6 0.8 15 2.5 22.1 -80.5-4-151.9-42.6-199.6-101.3 -8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7C67 210.7 52 206.3 39 199c0 0.4 0 0.8 0 1.2 0 47 33.4 86.1 77.7 95 -8.1 2.2-16.7 3.4-25.5 3.4 -6.2 0-12.3-0.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3 -33.1 26-74.9 41.5-120.3 41.5 -7.8 0-15.5-0.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-0.1-8.4-0.3-12.5C462.6 146 479 129 492 109.5z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/hanoi-tower" title="Share on Facebook" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 512 512"><path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64H288z"/></svg>
+            </a>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/posts/hanoi-tower" title="Share on Google+" rel="noreferrer noopener" target="_blank">
+              <svg viewBox="0 0 128 128"><path d="M40.7 55.9v16.1c0 0 15.6 0 22 0C59.2 82.5 53.8 88.2 40.7 88.2c-13.3 0-23.7-10.8-23.7-24.2s10.4-24.2 23.7-24.2c7.1 0 11.6 2.5 15.8 5.9 3.3-3.3 3.1-3.8 11.6-11.9 -7.2-6.6-16.8-10.6-27.4-10.6C18.2 23.3 0 41.5 0 64c0 22.5 18.2 40.7 40.7 40.7 33.6 0 41.8-29.3 39-48.8H40.7zM113.9 56.7V42.6h-10.1v14.1H89.4v10.1h14.5v14.5h10.1V66.8H128V56.7H113.9z"/></svg>
+            </a>
+          </div>
+
+          
+        </article>
+        <footer class="footer ">
+  <p>
+    Chalk is a high quality, completely customizable, performant and 100% free
+    blog template for Jekyll built by
+    <a href="/about" title="About me">Nielsen Ramon</a>. Download it <a href="https://github.com/nielsenramon/chalk" rel="noreferrer noopener" target="_blank" title="Download Chalk">here</a>.
+  </p>
+</footer>
+
+      </div>
+    </div>
+  </main>
+  
+
+<script src="/assets/vendor-0fb4b91f7ad6c193a69224eba7a01b691a2d7528ee672607575ccc0df3aea545.js" type="text/javascript"></script>
+
+
+  <script src="/assets/webfonts-96493456d319d1bf419afdf8701552d4d486fee6afd304897d4fd81eb4e0cc0b.js" type="text/javascript"></script>
+
+
+
+
+<script src="/assets/application-cfde13ac81ddaf4351b2e739603e2baf688d0fcc9aba613fe62bbb1c7b037fb9.js" type="text/javascript"></script>
+
+</body>
+</html>

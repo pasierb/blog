@@ -1,11 +1,7 @@
 ---
 layout: post
 title:  "Dealing with procrastination #1 - daily TODO"
-date:   2017-07-05 20:00:00 +0200
-categories:
-- self improvement
-tags:
-- procrastination
+tags: [productivity]
 ---
 
 TL;DR __write a list of tasks to complete for the next day__.
