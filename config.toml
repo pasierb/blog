@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "dev.log"
+title = "mpasierbski"
 theme = "beautifulhugo"
 
 [Params]
