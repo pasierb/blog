@@ -1,11 +1,14 @@
 ---
 title:  "Dealing with procrastination #1 - daily TODO"
 date: 2017-07-05
+comments: true
 ---
 
 TL;DR __write a list of tasks to complete for the next day__.
 
 > Procrastination (from latin's "procrastinare", that translates in to : the prefix pro-, 'forward', and suffix -crastinus, 'till next day' from cras, 'tomorrow' ) is the avoidance of doing a task that needs to be accomplished.Sometimes, procrastination takes place until the "last minute" before a deadline. Procrastination can take hold on any aspect of life—putting off cleaning the stove, repairing a leaky roof, seeing a doctor or dentist, submitting a job report or academic assignment or broaching a stressful issue with a partner. Procrastination can lead to feelings of guilt, inadequacy, depression and self-doubt.
+
+<!--more-->
 
 Writing a TODO list for the next day is one of best ways to deal with procrastination.
 Apart of giving you clear tasks to focus on, it deals with __"quilt"__ problem giving sense of __accomplishment__ of the day plan.
