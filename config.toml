@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "mpasierbski"
 theme = "beautifulhugo"
+googleAnalytics = "UA-102108439-1"
 
 [Params]
   logo = "/me.jpeg"
