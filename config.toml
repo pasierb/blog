@@ -1,4 +1,25 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "dev.log"
 theme = "beautifulhugo"
+
+[Params]
+  logo = "/me.jpeg"
+  subtitle = "Mostly about software engineering"
+  rss = true
+
+[Author]
+  name = "Michal Pasierbski"
+  github = "pasierb"
+  linkedin = "mpasierbski"
+  twitter = "mpasierbski"
+
+[[menu.main]]
+  name = "About"
+  url = "page/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "CV"
+  url = "https://pasierb.github.io/cv/"
+  weight = 3
