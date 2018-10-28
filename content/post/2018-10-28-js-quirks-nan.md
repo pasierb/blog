@@ -12,7 +12,7 @@ What is `NaN`? As [MDN doc page](https://developer.mozilla.org/en-US/docs/Web/Ja
 
 > The global NaN property is a value representing Not-A-Number.
 
-That's pretty streight forward. What can be so quirky about it?
+That's pretty straight forward. What can be so quirky about it?
 
 ## Type
 
@@ -36,7 +36,7 @@ Yes, typeof Not-a-Number is... number. Although it sounds like a bug, it has bee
 
 > Applies ToNumber to its argument, then returns true if the result is NaN, and otherwise returns false.
 
-Which basicaly means, that if argument coerces to `NaN` then result is true. This is valid for ES6 as well.
+Which basically means, that if argument coerces to `NaN` then result is true. This is valid for ES6 as well.
 
 ```javascript
 isNaN(undefined) // true
@@ -61,6 +61,6 @@ a === a // false
 NaN === NaN // false
 ```
 
-Again, refering to [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN#Testing_against_NaN):
+Again, reffering to [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN#Testing_against_NaN):
 
 > NaN, and only NaN, will compare unequal to itself.
