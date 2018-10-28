@@ -1,9 +1,12 @@
 ---
 title: "Algorithms day 1 - Hanoi towers"
 date: 2017-07-09
+comments: true
 ---
 
 To undetstand recursion, You must first undestand recursion
+
+<!--more-->
 
 >
 The Tower of Hanoi (also called the Tower of Brahma or Lucas' Tower[1] and sometimes pluralized) is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod.  

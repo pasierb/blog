@@ -4,6 +4,11 @@ DefaultContentLanguage = "en"
 title = "mpasierbski"
 theme = "beautifulhugo"
 googleAnalytics = "UA-102108439-1"
+disqusShortname = "mpasierbski"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 [Params]
   logo = "/me.jpeg"
