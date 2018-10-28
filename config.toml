@@ -1,5 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "mpasierbski"
 theme = "beautifulhugo"
 googleAnalytics = "UA-102108439-1"
@@ -8,6 +9,10 @@ googleAnalytics = "UA-102108439-1"
   logo = "/me.jpeg"
   subtitle = "Mostly about software engineering"
   rss = true
+
+# [[Params.bigimg]]
+#  src = "me.jpeg"
+#  desc = "Triangle"
 
 [Author]
   name = "Michal Pasierbski"
