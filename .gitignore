@@ -2,3 +2,4 @@ node_modules
 _assets/yarn
 .jekyll-cache
 .DS_Store
+public
