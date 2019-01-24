@@ -1,6 +1,9 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "mpasierbski",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "hexo serve"
+  },
   "private": true,
   "hexo": {
     "version": "3.8.0"
