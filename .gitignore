@@ -1,5 +1,7 @@
-node_modules
-_assets/yarn
-.jekyll-cache
 .DS_Store
-public
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
