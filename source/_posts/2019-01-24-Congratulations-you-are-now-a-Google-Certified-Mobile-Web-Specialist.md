@@ -5,7 +5,7 @@ tags:
   - web platform
 ---
 
-![Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85)
+<img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85" alt="Badge" height="200" />
 
 Today I got an email with the same title as this post. Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
 
