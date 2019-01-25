@@ -81,6 +81,7 @@ deploy:
   type:
 
 theme_config:
+  ga: UA-102108439-1
   favicon: /images/favicon.ico
   logo: /images/me-removebg_200x200.png
   disqus: mpasierbski
