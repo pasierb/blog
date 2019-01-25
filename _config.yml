@@ -81,7 +81,8 @@ deploy:
   type:
 
 theme_config:
-  logo: /images/me-removebg.png
+  favicon: /images/favicon.ico
+  logo: /images/me-removebg_200x200.png
   disqus: mpasierbski
   startyear: 2017
   menu:
