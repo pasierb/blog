@@ -5,6 +5,8 @@ tags:
   - web platform
 ---
 
+![Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85)
+
 Today I got an email with the same title as this post. Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
 
 <!-- more -->
@@ -50,4 +52,6 @@ All that makes those 4 hours run really quickly. There is very little time searc
 
 Once you're done, there is an exit interview, i.e. you record (audio + video) answers to questions about the exam, some details of your solution. Purpose of it is to prove that you really took the test yourself.
 
-It can take up to 45 days to receive a grade (I got it after 40 days) and up to 7 to receive actual certification (still waiting for mine).
+It can take up to 45 days to receive a grade (I got it after 40 days) and up to 7 to receive actual certification ~~(still waiting for mine)~~.
+
+![Certificate](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85)
