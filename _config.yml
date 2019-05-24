@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo
+theme: apollo-pwa
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,7 +83,7 @@ deploy:
 theme_config:
   ga: UA-102108439-1
   favicon: /images/favicon.ico
-  logo: /images/me-removebg_200x200.png
+  logo: /images/logo.png
   disqus: mpasierbski
   startyear: 2017
   menu:
