@@ -3,4 +3,4 @@
 	url = https://github.com/pinggod/hexo-theme-apollo.git
 [submodule "themes/apollo-pwa"]
 	path = themes/apollo-pwa
-	url = git@github.com:pasierb/hexo-theme-apollo.git
+	url = https://github.com/pasierb/hexo-theme-apollo.git
