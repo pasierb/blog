@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo-pwa
+theme: cactus-white
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,14 +81,23 @@ deploy:
   type:
 
 theme_config:
-  ga: UA-102108439-1
-  favicon: /images/favicon.ico
-  logo: /images/logo.png
-  disqus: mpasierbski
-  startyear: 2017
-  menu:
-    Blog: /
-    Archive: /archives/
+  nav:
+    Home: /
+    Blog: /archives
     CV: https://pasierb.github.io/cv/
-    GitHub: https://github.com/pasierb
-    Rss: /atom.xml
+  customize:
+    show_all_posts: false
+    post_count: 10
+    social_links:
+      github: https://github.com/pasierb
+      twitter: https://twitter.com/mpasierbski
+      linkedin: https://www.linkedin.com/in/mpasierbski/
+    logo:
+      enabled: true
+      url: /images/me-logo.png
+    favicon:
+      desktop:
+        url: /images/favicon.ico
+  plugins:
+    disqus_shortname: mpasierbski
+    google_analytics: UA-102108439-1

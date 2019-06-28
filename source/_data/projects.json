@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Ssig",
+        "url": "https://ssig.io",
+        "desc": "On the fly image generator from templates SaaS"
+    },
+    {
+        "name": "vue-forminator",
+        "url": "https://www.npmjs.com/package/vue-forminator",
+        "desc": "schema-based form generator for Vue.js"
+    }
+]
