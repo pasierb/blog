@@ -8,8 +8,7 @@ To undetstand recursion, You must first undestand recursion
 
 <!--more-->
 
->
-The Tower of Hanoi (also called the Tower of Brahma or Lucas' Tower[1] and sometimes pluralized) is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod.  
+> The Tower of Hanoi (also called the Tower of Brahma or Lucas' Tower[1] and sometimes pluralized) is a mathematical game or puzzle. It consists of three rods and a number of disks of different sizes, which can slide onto any rod.  
 The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape.  
 The objective of the puzzle is to move the entire stack to another rod, obeying the following simple rules:
 - Only one disk can be moved at a time.
@@ -20,7 +19,7 @@ Hanoi tower is a hard problem to get your head around at first (even at second a
 I would even argue that's nearly impossible unless you split it into simple, easy to grasp steps.
 Let's build our solution from the easiest case up.
 
-#### Height = 1
+### Height = 1
 
 ```
 1
@@ -31,7 +30,7 @@ A B C
 This is trivial case (yet important) case. We need just on move:
 1. "1" from A to C
 
-#### Height = 2
+### Height = 2
 
 ```
 1
@@ -45,7 +44,7 @@ With only 2 blocks problem get much more complicated comparing to 1.
 2. "2" from A to C
 3. "1" from B to C
 
-#### Height = 3
+### Height = 3
 
 ```
 1
@@ -63,7 +62,7 @@ A B C
 6. "2" from B to C
 7. "1" from A to C
 
-### Breakdown
+## Breakdown
 
 Let's say that "n" is our tower height and  A,B,C are our tower names, we can breakdown solution as following:
 1. Move all but largest block (n-1) from A to C using B
@@ -78,7 +77,7 @@ It's a beatiful example of recursive solution!
 
 It can take some time to get your head around Hanoi towers problem at first.
 
-### Solution
+## Solution
 
 ```ruby
 def move(rings:, from:, to:, other:)
@@ -95,7 +94,7 @@ You can find full solution at [github][code]
 
 Next is "Matrix chain multiplication"
 
-Sources:
+### Sources:
 - [Wikipedia][wiki]
 
 [wiki]: https://en.wikipedia.org/wiki/Tower_of_Hanoi

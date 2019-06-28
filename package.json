@@ -4,7 +4,6 @@
   "scripts": {
     "start": "hexo serve"
   },
-  "private": true,
   "hexo": {
     "version": "3.8.0"
   },

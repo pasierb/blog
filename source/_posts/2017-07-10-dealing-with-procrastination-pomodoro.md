@@ -14,7 +14,7 @@ These intervals are named pomodoros, the plural in English of the Italian word p
 
 [Wikipedia][wiki]
 
-### How?
+## How?
 
 This method is very straight forward
 - work (25 minutes)
@@ -23,7 +23,7 @@ This method is very straight forward
 
 Segments can not be broken, split. If you started segment, you have to complete it.
 
-### Why?
+## Why?
 
 Main goal is to let yourself focus on one task - to program yourself on task if you will.
 Barbara Oakley is talking about your inner zombies. When those zombies don't have clear task to perform they start wander around doing everything (nothing).
@@ -31,7 +31,7 @@ Barbara Oakley is talking about your inner zombies. When those zombies don't hav
 For me pomodoro is a way to not waste time on "not-my-best" days, when there is something on my mind that i can not get rid of, or i simply don't feel like working.
 In such cases pomodoro is invaluable
 
-### Tools
+## Tools
 
 You can find dozens of decent pomodoro timers online.
 I'm using [Goodtime][goodtime]. It has clean interface and handfull of options.
