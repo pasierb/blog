@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: mpasierbski
-subtitle:
-description:
-keywords:
+title: Michal Pasierbski
+description: Personal website and software engineering blog
+subtitle: Lead Software Developer at EF Education First
+keywords: JavaScript, JS, web development, engineering
 author: Michal Pasierbski
 language: en
 timezone:
