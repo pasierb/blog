@@ -98,6 +98,8 @@ theme_config:
     favicon:
       desktop:
         url: /images/favicon.ico
+    scripts:
+    - 'js/registerServiceWorker.js'
   plugins:
     disqus_shortname: mpasierbski
     google_analytics: UA-102108439-1
