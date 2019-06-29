@@ -1,4 +1,4 @@
-const CACHE_KEY = 'mpasierbski-v4';
+const CACHE_KEY = 'mpasierbski-v5';
 
 const urlsToPrefetch = [
   '/css/style.css',
