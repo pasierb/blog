@@ -1,4 +1,4 @@
-const RESOURCES_CACHE_KEY = 'mpasierbski-v5';
+const RESOURCES_CACHE_KEY = 'mpasierbski-assets-v1';
 const CONTENT_CACHE_KEY = 'mpasierbski-content-v2';
 
 const resourcesToPrefetch = [
