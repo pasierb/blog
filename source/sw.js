@@ -1,5 +1,5 @@
 const RESOURCES_CACHE_KEY = 'mpasierbski-v5';
-const CONTENT_CACHE_KEY = 'mpasierbski-content-v1';
+const CONTENT_CACHE_KEY = 'mpasierbski-content-v2';
 
 const resourcesToPrefetch = [
   '/css/style.css',
@@ -52,18 +52,47 @@ self.addEventListener('fetch', function(event) {
  * @param {Event} event 
  * @returns Promise
  */
-function handleFetch(event) {
-  isContentRequest(event.request);
+async function handleFetch(event) {
+  if (isContentRequest(event.request)) {
+    return handleFetchContent(event);
+  } else {
+    return cacheFirst(event.request);
+  }
+}
 
-  return caches.match(event.request).then(function(cachedResponse) {
+function handleFetchContent(event) {
+  const onlineFirst = fetchAndCache(event.request, CONTENT_CACHE_KEY);
+  const cacheFirst = new Promise((resolve) => {
+    setTimeout(() => resolve(caches.match(event.request)), 300);
+  });
+
+  return Promise.race([onlineFirst, cacheFirst]);
+}
+
+function fetchAndCache(request, cacheKey) {
+  return fetch(request).then((response) => {
+    caches.open(cacheKey).then((cache) => {
+      cache.put(request, response.clone());
+    });
+
+    return response;
+  });
+}
+
+function cacheFirst(request) {
+  return caches.match(request).then(function(cachedResponse) {
     if (cachedResponse) {
       return cachedResponse;
     }
 
-    return fetch(event.request);
+    return fetch(request);
   });
 }
 
 function isContentRequest(request) {
-  console.log(request.url);
+  for (let path of contentToPrefetch) {
+    if (request.url.endsWith(path)) return true;
+  }
+
+  return false;
 }
