@@ -2,7 +2,8 @@
   "name": "mpasierbski",
   "version": "0.0.1",
   "scripts": {
-    "start": "hexo serve"
+    "start": "hexo serve",
+    "build": "hexo generate"
   },
   "hexo": {
     "version": "3.8.0"
