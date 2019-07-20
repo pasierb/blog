@@ -79,22 +79,17 @@ async function handleFetchContent(event) {
         isResolved = true;
         resolve(cached);
       }
-    }, 300)
+    }, 300);
   })
-
-
-  const result = await Promise.race([onlineFirst, cacheFirst]);
-
-  console.log({ result, onlineFirst, cacheFirst });
-
-  return result;
 }
 
 function fetchAndCache(request, cacheKey) {
   return fetch(request).then((response) => {
-    caches.open(cacheKey).then((cache) => {
-      cache.put(request, response.clone());
-    });
+    if (response.ok) {
+      caches.open(cacheKey).then((cache) => {
+        cache.put(request, response.clone());
+      });
+    }
 
     return response;
   });
