@@ -1,15 +1,15 @@
 const RESOURCES_CACHE_KEY = 'mpasierbski-assets-v1';
-const CONTENT_CACHE_KEY = 'mpasierbski-content-v2';
+const CONTENT_CACHE_KEY = 'mpasierbski-content-v3';
 
 const resourcesToPrefetch = [
   '/css/style.css',
   '/lib/font-awesome/css/font-awesome.min.css',
   '/js/main.js',
   '/images/me-logo.png',
-  '/fonts/Ubuntu/Ubuntu-Regular.ttf'
+  '/fonts/Ubuntu/Ubuntu-Regular.ttf',
 ];
 
-const contentToPrefetch = ['/', '/index.html'];
+const contentToPrefetch = ['/'];
 
 self.addEventListener('install', function(event) {
   // prefetch resources
@@ -60,13 +60,34 @@ async function handleFetch(event) {
   }
 }
 
-function handleFetchContent(event) {
-  const onlineFirst = fetchAndCache(event.request, CONTENT_CACHE_KEY);
-  const cacheFirst = new Promise((resolve) => {
-    setTimeout(() => resolve(caches.match(event.request)), 300);
-  });
+async function handleFetchContent(event) {
+  return new Promise((resolve, reject) => {
+    let isResolved = false;
+    const cached = caches.match(event.request);
 
-  return Promise.race([onlineFirst, cacheFirst]);
+    fetchAndCache(event.request, CONTENT_CACHE_KEY)
+      .then((response) => {
+        if (!isResolved) {
+          isResolved = true;
+          resolve(response);
+        }
+      })
+      .catch((e) => { console.log('no worries') });
+
+    setTimeout(() => {
+      if (!isResolved) {
+        isResolved = true;
+        resolve(cached);
+      }
+    }, 300)
+  })
+
+
+  const result = await Promise.race([onlineFirst, cacheFirst]);
+
+  console.log({ result, onlineFirst, cacheFirst });
+
+  return result;
 }
 
 function fetchAndCache(request, cacheKey) {
