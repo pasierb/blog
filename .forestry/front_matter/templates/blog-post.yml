@@ -4,10 +4,22 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+  default: now
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  config:
+    use_select: false
+- name: comments
+  type: boolean
+  label: Comments
+  default: true
