@@ -25,3 +25,4 @@ fields:
   default: true
 pages:
 - source/_drafts/cloudflare-workers-introduction-development-environment-setup.md
+- source/_drafts/cloudflare-workers-reducer-pattern.md
