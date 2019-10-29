@@ -7,8 +7,6 @@ tags:
 - cloudflare
 
 ---
-> The reducer is a pure function that takes the previous state and returns the next state.
-
 Let's look at the anatomy of a simple worker:
 
 ```javascript
@@ -21,7 +19,3 @@ addEventListener('fetch', async (event) => {
 ```
 
 The above worker doesn't do much (it's actually pretty useless), so let's add some functionality to it.
-
-Sources:
-
-* [https://redux.js.org/basics/reducers](https://redux.js.org/basics/reducers "https://redux.js.org/basics/reducers")
