@@ -20,7 +20,7 @@ At [EF Education First](https://www.ef.com/wwen/ "EF Education First homepage") 
 * high availability
 * Worker API
 
-After couple of months of development, couple production releases and number of hours worth of debugging these are caveats I discovered.
+After a couple of months of development, couple production releases and number of hours worth of debugging these are caveats I discovered.
 
 ## Not available in China
 
@@ -60,7 +60,7 @@ From my investigation, cached keys are invalidated after 60 seconds which in lin
 
 You could try to keep cache "hot" by pinging each key every minute. Problem is that you have to do it for each data center.
 
-You could reduce number of keys by putting more data under one key (value size limit per key is 10MB).
+You could reduce the number of keys by putting more data under one key (value size limit per key is 10MB).
 
 If your data fits in a Worker ([total script limit is 1MB](https://developers.cloudflare.com/workers/about/limits/)), put it directly in the worker script.
 
