@@ -22,9 +22,9 @@ At [EF Education First](https://www.ef.com/wwen/ "EF Education First homepage") 
 
 After couple of months of development, couple production releases and number of hours worth of debugging these are caveats I discovered.
 
-### Not available in China
+## Not available in China
 
-Yes, if you have to support the Chinese market you will have to have some fallback solution. This alone might stop you from using Worker KV, as there is no way to overcome this limitation apart from implementing your own storage solution and if you do it for China, you could do the same for the rest of the world and not deal with special cases. 
+Yes, if you have to support the Chinese market you will have to have some fallback solution. This alone might stop you from using Worker KV, as there is no way to overcome this limitation apart from implementing your own storage solution and if you do it for China, you could do the same for the rest of the world and not deal with special cases.
 
 Below you can find excerpts of my conversation with Cloudflare support.
 
@@ -32,13 +32,13 @@ Below you can find excerpts of my conversation with Cloudflare support.
 
 > It seems that the KV won't be supported in China for a while now. Our team had a meeting with Baidu regarding this, but it seems that they couldn't agree on any solution.
 
-#### Fix?
+### Fix?
 
 If your data fits in a Worker ([total script limit is 1MB](https://developers.cloudflare.com/workers/about/limits/)), put it directly in the worker script.
 
 Put your data as a JSON on some publicly accessible origin and [cache it](https://developers.cloudflare.com/workers/about/using-cache/ '"using cache" documentation').
 
-### "Cold cache" is slow and frequent
+## "Cold cache" is slow and frequent
 
 > Workers KV read performance is determined by the amount of read-volume a given key receives. Maximum performance for a key is not reached unless that key is being read at least a couple times per minute in any given data center.
 
@@ -48,7 +48,7 @@ I saw response times for `NAMESPACE.get(key)` taking as long as \~500ms at times
 
 > Depending on where in the world the request is coming from, the request time for a cold-start is on average about 100-300ms - the storage is held in the central US.
 
-This adds extra 300ms to TTFB (Time to first byte) which is pretty bad. 
+This adds extra 300ms to TTFB (Time to first byte) which is pretty bad.
 
 For cached keys, response times are \~6-8ms 👍.
 
@@ -56,7 +56,7 @@ From my investigation, cached keys are invalidated after 60 seconds which in lin
 
 > While writes will often be visible globally immediately, it can take up to 60 seconds before reads in all edge locations are guaranteed to see the new value.
 
-#### Fix?
+### Fix?
 
 You could try to keep cache "hot" by pinging each key every minute. Problem is that you have to do it for each data center.
 
