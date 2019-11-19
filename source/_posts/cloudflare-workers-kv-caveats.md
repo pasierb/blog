@@ -9,7 +9,7 @@ tags:
 - cloudflare
 
 ---
-![](/public/images/cf_kv.png)
+![](/images/cf_kv.png)
 _(Image source: https://hashnode.com/post/building-a-serverless-doc-writing-app-using-cloudflare-workers-and-kv-store-ck236aou1001e8os1esou2fac)_
 
 > Workers KV is a global, low-latency, key-value data store. It supports exceptionally high read volumes with low-latency, making it possible to build highly dynamic APIs and websites which respond as quickly as a cached static file would.
