@@ -23,6 +23,3 @@ fields:
   type: boolean
   label: Comments
   default: true
-pages:
-- source/_drafts/cloudflare-workers-reducer-pattern.md
-- source/_drafts/cloudflare-workers-introduction-development-environment-setup.md
