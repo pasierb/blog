@@ -2,11 +2,12 @@
 title: '"Congratulations, you are now a Google Certified Mobile Web Specialist!"'
 date: 2019-01-24 17:11:43
 summary: Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
+slug: 2019-01-24-2019-01-24-congratulations-you-are-now-a-google-certified-mobile-web-specialist
 tags:
 - web platform
 ---
 
-<img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85" alt="Badge" height="200" loading="lazy" />
+![badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85)
 
 Today I got an email with the same title as this post. Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
 
