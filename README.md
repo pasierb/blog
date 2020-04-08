@@ -2,13 +2,13 @@
 
 ## Development
 
-clone the repo inculding submodules
+clone the repo including submodules
 
 ```bash
 git submodule update --init --recursive
 ```
 State dev server
 
-```
-yarn start
+```bash
+hugo server
 ```
