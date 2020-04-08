@@ -1,4 +1,0 @@
----
-type: section
-layout: "archives"
----
