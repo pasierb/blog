@@ -1,8 +1,9 @@
 ---
 title: '"Congratulations, you are now a Google Certified Mobile Web Specialist!"'
 date: 2019-01-24 17:11:43
+summary: Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
 tags:
-  - web platform
+- web platform
 ---
 
 <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85" alt="Badge" height="200" loading="lazy" />
@@ -25,7 +26,7 @@ I compulsively bought a pass (it costs 99$).
 
 ## What (can you expect)?
 
-Certification itself covers quite a lot of ground:
+The certification itself covers quite a lot of ground:
 
 - Basic Website Layout and Styling
 - Front End Networking

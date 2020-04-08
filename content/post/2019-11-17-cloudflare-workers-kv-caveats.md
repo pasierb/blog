@@ -1,13 +1,13 @@
 ---
 date: 2019-11-17T20:26:00.000+00:00
 comments: true
-title: 'Cloudflare: Workers KV caveats'
+title: "Cloudflare: Workers KV caveats"
+summary: At [EF Education First](https://www.ef.com/wwen/ "EF Education First homepage") we migrated some functionality from monolith application to Cloudflare worker. Part of it was figuring out how to use existing data (stored in DynamoDB) in the worker. Worker KV seemed like a perfect tool for the job
 tags:
 - web
 - performance
 - cdn
 - cloudflare
-
 ---
 ![](/images/cf_kv.png)
 _(Image source: https://hashnode.com/post/building-a-serverless-doc-writing-app-using-cloudflare-workers-and-kv-store-ck236aou1001e8os1esou2fac)_
