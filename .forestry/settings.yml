@@ -10,9 +10,10 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_env:
+  - HUGO_VERSION=0.68.3
   preview_output_directory: public
-  install_dependencies_command: npm install
-  preview_docker_image: node:10
+  preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run start -- --draft --port 8080
+  instant_preview_command: hugo server
