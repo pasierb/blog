@@ -4,16 +4,18 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: text
   name: summary
-  label: summary
-- type: datetime
-  name: slug
-  label: slug
+  label: Summary
 - type: list
   name: tags
-  label: tags
+  label: Tags
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Slug
