@@ -2,3 +2,10 @@
   command = "hugo"
   publish = "public/"
   environment = { HUGO_VERSION = "0.68.3", HUGO_ENV = "production" }
+
+[[redirects]]
+  from = "/cv"
+  to = "https://pasierb.github.io/cv/"
+  force = true
+  status = 200
+  headers = {X-From = "Netlify"}
