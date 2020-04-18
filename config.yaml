@@ -15,5 +15,5 @@ menu:
     - identifier: cv
       name: CV
       title: CV
-      url: https://pasierb.github.io/cv/
+      url: /cv/
     
