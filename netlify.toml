@@ -7,5 +7,5 @@
   from = "/cv"
   to = "https://pasierb.github.io/cv/"
   force = true
-  status = 200
+  status = 301
   headers = {X-From = "Netlify"}
