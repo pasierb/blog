@@ -1,0 +1,18 @@
+p {
+    padding-bottom: 1em;
+    padding-top: .5em;
+}
+
+a.icon img {
+    height: 1em;
+    display: inline;
+    margin: 0;
+}
+
+.about-me__badges {
+    display: flex;
+}
+
+.about-me__badges > * {
+    margin: .5em;
+}
