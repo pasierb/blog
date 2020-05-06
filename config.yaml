@@ -12,8 +12,19 @@ menu:
       name: Archive
       title: Archive
       url: /archives/
-    - identifier: cv
-      name: CV
-      title: CV
-      url: /cv/
+    - identifier: about
+      name: About me
+      title: About me
+      url: /about/
+
+params:
+  author: "Michal Pasierbski"
+  description: "Software engineer's notebook"
+  customCSS:
+    - css/overrides.css
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
     
