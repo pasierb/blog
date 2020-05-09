@@ -30,11 +30,15 @@ The interwebs were pretty clear about recommendations at the time:
 
 I went with Linux academy mainly because if their hands-on labs. It's a great feature if you want to get some practice in a real environment without risking getting into costs.
 
-Linux Academy has a course preparing specifically to "AWS Solutions Architect - associate" certificate, which is perfect if you want to get a broad view of what AWS has to offer, as well as some details on most important parts (IAM, networking, S3, EC2 and "serverless"). Completing the course took me roughly 3 months of mostly evening studying. 
+Linux Academy has a course preparing specifically to "AWS Solutions Architect - associate" certificate, which is perfect if you want to get a broad view of what AWS has to offer, as well as some details on most important parts (IAM, networking, S3, EC2 and "serverless"). Completing the course took me roughly 3 months of mostly evening studying.
 
 After that, I was grinding [AWS Certified Solutions Architect 2019 Practice Questions: Over 800+ Practice Questions with Explanation. 100% Unconditional Pass Guarantee](https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb_t1_RCSTEbZ84NZF0) to familiarize me with the format of questions, as those can be quite tricky at times with the phrasing (English is not my first language but I do consider myself as a quite fluent speaker).
 
 ## The exam
+
+I took my exam during "AWS re:Invent 2019" conference in Las Vegas, Nevada. Everything went exactly as expected. We were asked to leave all the devices, assigned a seat and it was on. One hour later I was successfully finished (results are given immediately after submitting your sheet). I went straight to AWS Certification Lounge to get my "certified" swag 😎.
+
+![](/images/reinventbadge.png)
 
 ## Was it worth it?
 
