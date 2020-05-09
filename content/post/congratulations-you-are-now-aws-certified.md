@@ -15,6 +15,23 @@ slug: ''
 
 When I (re)joined EF Education First 9 months ago I found myself in a company fully invested in AWS but with little expertise within development teams how to take advantage of it.
 
+I noticed that teams are spending increasingly more time on infrastructure maintenance and on tasks that could have been automated.
+
+I treated this as an opportunity to improve my skills, learn something new and help my colleagues.
+
 ## Preparation
+
+I didn't have much exposure to the cloud providers before - started my career before cloud was a thing and focused on frontend when it was, unfortunate timing.
+
+The interwebs was pretty clear about recommendations at the time:
+
+* Linux academy, or
+* Cloud guru
+
+I went with Linux academy mainly because if their hands-on labs. It's a great feature if you want get some practice in real environment without risking getting into costs.
+
+Linux academy has a course preparing specifically to "AWS Solutions Architect - associate" certificate, which is perfect if you want to get a broad view of what AWS has to offer, as well as some details on most important parts (IAM, networking, S3, EC2 and "serverless").
+
+Completing the course took me roughly 3 months of mostly evening's studying. I also used [https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb___RCSTEbZ84NZF0_](https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb_t1_RCSTEbZ84NZF0 "AWS Certified Solutions Architect 2019 Practice Questions: Over 800+ Practice Questions with Explanation. 100% Unconditional Pass Guarantee")
 
 ## Is it worth it?
