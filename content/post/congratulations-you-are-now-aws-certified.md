@@ -23,15 +23,15 @@ I treated this as an opportunity to improve my skills, learn something new and h
 
 I didn't have much exposure to the cloud providers before - started my career before cloud was a thing and focused on frontend when it was, unfortunate timing.
 
-The interwebs was pretty clear about recommendations at the time:
+The interwebs were pretty clear about recommendations at the time:
 
-* Linux academy, or
-* Cloud guru
+* [Linux Academy](https://linuxacademy.com/), or
+* [A Cloud guru](https://acloud.guru/)
 
-I went with Linux academy mainly because if their hands-on labs. It's a great feature if you want get some practice in real environment without risking getting into costs.
+I went with Linux academy mainly because if their hands-on labs. It's a great feature if you want to get some practice in a real environment without risking getting into costs.
 
-Linux academy has a course preparing specifically to "AWS Solutions Architect - associate" certificate, which is perfect if you want to get a broad view of what AWS has to offer, as well as some details on most important parts (IAM, networking, S3, EC2 and "serverless").
+Linux Academy has a course preparing specifically to "AWS Solutions Architect - associate" certificate, which is perfect if you want to get a broad view of what AWS has to offer, as well as some details on most important parts (IAM, networking, S3, EC2 and "serverless"). Completing the course took me roughly 3 months of mostly evening studying. 
 
-Completing the course took me roughly 3 months of mostly evening's studying. I also used [AWS Certified Solutions Architect 2019 Practice Questions: Over 800+ Practice Questions with Explanation. 100% Unconditional Pass Guarantee](https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb_t1_RCSTEbZ84NZF0)
+After that, I was grinding [AWS Certified Solutions Architect 2019 Practice Questions: Over 800+ Practice Questions with Explanation. 100% Unconditional Pass Guarantee](https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb_t1_RCSTEbZ84NZF0) to familiarize me with the format of questions, as those can be quite tricky at times with the phrasing (English is not my first language but I do consider myself as a quite fluent speaker).
 
 ## Is it worth it?
