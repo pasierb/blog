@@ -17,7 +17,7 @@ When I (re)joined EF Education First 9 months ago I found myself in a company fu
 
 I noticed that teams are spending increasingly more time on infrastructure maintenance and on tasks that could have been automated.
 
-I treated this as an opportunity to improve my skills, learn something new and help my colleagues.
+I treated this as an opportunity to improve my skills, learn something new, and help my colleagues.
 
 ## Preparation
 
@@ -34,4 +34,12 @@ Linux Academy has a course preparing specifically to "AWS Solutions Architect - 
 
 After that, I was grinding [AWS Certified Solutions Architect 2019 Practice Questions: Over 800+ Practice Questions with Explanation. 100% Unconditional Pass Guarantee](https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb_t1_RCSTEbZ84NZF0) to familiarize me with the format of questions, as those can be quite tricky at times with the phrasing (English is not my first language but I do consider myself as a quite fluent speaker).
 
-## Is it worth it?
+## The exam
+
+## Was it worth it?
+
+Definitely!
+
+Going through the "AWS Solutions Architect - associate" certificate gives a great overview of the whole platform. You may not necessarily know how to set up a corporate network, but you will definitely know what's possible and where to start.
+
+Equipped with new skills I managed to help my team with infrastructure and DevOps tasks. I automated all repetitive tasks, implemented CI/CD pipelines, and moved most of the infrastructure to a serverless architecture. Then did the same for another team, and another, and soon after I found myself being a go-to person regarding AWS.
