@@ -16,3 +16,7 @@ a.icon img {
 .about-me__badges > * {
     margin: .5em;
 }
+
+.content > p > img {
+    max-width: 80%;
+}

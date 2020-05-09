@@ -1,15 +1,16 @@
 ---
 title: '"Congratulations, You are Now AWS Certified!"'
 date: 2020-05-09T00:00:00+02:00
-summary: ''
+summary: 'Going through the “AWS Solutions Architect - associate” certificate gives a great overview of the whole platform. You may not necessarily know how to set up a corporate network, but you will definitely know what\’s possible and where to start.'
 tags:
 - aws
-slug: ''
 
 ---
 > Hi Michal Pasierbski,
 >
 > Congratulations! You have successfully completed the requirements for the AWS Certified Solutions Architect - Associate certification. This certification, and all associated benefits will be valid through Dec 02, 2022.
+
+<a href="https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=V3P97712KJ1EQTWR" target="_blank"><img src="/images/AWS-SolArchitect-Associate_badge.png" alt="AWS Solutions Architect - associate badge"></a>
 
 ## Motivation
 
