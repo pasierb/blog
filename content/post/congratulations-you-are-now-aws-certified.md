@@ -32,6 +32,6 @@ I went with Linux academy mainly because if their hands-on labs. It's a great fe
 
 Linux academy has a course preparing specifically to "AWS Solutions Architect - associate" certificate, which is perfect if you want to get a broad view of what AWS has to offer, as well as some details on most important parts (IAM, networking, S3, EC2 and "serverless").
 
-Completing the course took me roughly 3 months of mostly evening's studying. I also used [https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb___RCSTEbZ84NZF0_](https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb_t1_RCSTEbZ84NZF0 "AWS Certified Solutions Architect 2019 Practice Questions: Over 800+ Practice Questions with Explanation. 100% Unconditional Pass Guarantee")
+Completing the course took me roughly 3 months of mostly evening's studying. I also used [AWS Certified Solutions Architect 2019 Practice Questions: Over 800+ Practice Questions with Explanation. 100% Unconditional Pass Guarantee](https://www.amazon.com/dp/B07BJGXPXK/ref=cm_sw_r_cp_awdb_t1_RCSTEbZ84NZF0)
 
 ## Is it worth it?
