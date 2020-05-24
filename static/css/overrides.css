@@ -1,29 +1,43 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 html {
     font-family: 'Open Sans', sans-serif;
 }
 
-p {
-    padding-bottom: 1em;
-    padding-top: .5em;
+body {
+    font-size: 18px;
 }
 
-a.icon img {
+article p {
+    margin: 1.5em 0;
+}
+
+header nav a {
+    margin-left: 1em;
+}
+
+article header h1 {
+    line-height: 1.5em;
+    font-family: 'Montserrat';
+}
+
+article.post-list header h1 a {
+    color: #555;
+}
+
+.icon > img {
     height: 1em;
     display: inline;
     margin: 0;
 }
 
-.about-me__badges {
-    display: flex;
+img.rounded {
+    border-radius: 50%;
+    border: 1px solid #333;
 }
 
-.about-me__badges > * {
-    margin: .5em;
+img.profile {
+    background-color: #c1a2ae;
 }
 
-.content > p > img {
-    max-width: 80%;
+.homepage-content {
+    text-align: center;
 }

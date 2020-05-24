@@ -1,10 +1,10 @@
 ---
 aliases: ["about", "me", "contact"]
-title: About me
+title: O mnie
 comments: false
 ---
 
-<img src="/images/icon-192x192.png" class="rounded profile">
+![me](/images/icon-192x192.png)
 
 Hello, I'm Michal.
 

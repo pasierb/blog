@@ -25,26 +25,26 @@ languages:
           name: About me
           title: About me
           url: /about/
-  pl:
-    author: "Michał Pasierbski"
-    title: "Michał Pasierbski"
-    languageCode: "pl"
-    languageName: Polski
-    description: "Programowanie, kariera"
-    menu:
-      main:
-        - identifier: archive
-          name: Blog
-          title: Blog
-          url: /archives/
-        - identifier: tags
-          name: Tagi
-          title: Tagi
-          url: /tags/
-        - identifier: about
-          name: O mnie
-          title: O mnie
-          url: /about/
+  # pl:
+  #   author: "Michał Pasierbski"
+  #   title: "Michał Pasierbski"
+  #   languageCode: "pl"
+  #   languageName: Polski
+  #   description: "Programowanie, kariera"
+  #   menu:
+  #     main:
+  #       - identifier: archive
+  #         name: Blog
+  #         title: Blog
+  #         url: /archives/
+  #       - identifier: tags
+  #         name: Tagi
+  #         title: Tagi
+  #         url: /tags/
+  #       - identifier: about
+  #         name: O mnie
+  #         title: O mnie
+  #         url: /about/
 
 params:
   customCSS:
