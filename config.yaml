@@ -1,29 +1,52 @@
 baseURL: "https://mpasierbski.com/"
-languageCode: "en-us"
-title: "Michal Pasierbski"
 theme: "anubis"
-paginate: 10
+paginate: 5
 disqusShortname: "mpasierbski"
 googleAnalytics: "UA-102108439-1"
 
-menu:
-  main:
-    - identifier: archive
-      name: Archive
-      title: Archive
-      url: /archives/
-    - identifier: tags
-      name: Tags
-      title: Tags
-      url: /tags/
-    - identifier: about
-      name: About me
-      title: About me
-      url: /about/
+languages:
+  en:
+    author: "Michal Pasierbski"
+    title: "Michal Pasierbski"
+    languageCode: "en-us"
+    languageName: English
+    description: "Software engineer's notebook"
+    menu:
+      main:
+        - identifier: archive
+          name: Archive
+          title: Archive
+          url: /archives/
+        - identifier: tags
+          name: Tags
+          title: Tags
+          url: /tags/
+        - identifier: about
+          name: About me
+          title: About me
+          url: /about/
+  pl:
+    author: "Michał Pasierbski"
+    title: "Michał Pasierbski"
+    languageCode: "pl"
+    languageName: Polski
+    description: "Programowanie, kariera"
+    menu:
+      main:
+        - identifier: archive
+          name: Blog
+          title: Blog
+          url: /archives/
+        - identifier: tags
+          name: Tagi
+          title: Tagi
+          url: /tags/
+        - identifier: about
+          name: O mnie
+          title: O mnie
+          url: /about/
 
 params:
-  author: "Michal Pasierbski"
-  description: "Software engineer's notebook"
   customCSS:
     - css/overrides.css
 
