@@ -31,7 +31,7 @@ article.post-list header h1 a {
 
 img.rounded {
     border-radius: 50%;
-    border: 1px solid #333;
+    border: 1px ridge #333;
 }
 
 img.profile {
@@ -40,4 +40,10 @@ img.profile {
 
 .homepage-content {
     text-align: center;
+}
+
+.site-header a {
+    color: #a31d1d;
+    font-family: 'Montserrat';
+    font-weight: 600;
 }
