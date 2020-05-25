@@ -6,6 +6,7 @@ tags:
 - devops-for-frontends
 - aws
 - devops
+comments: true
 ---
 
 ## Problem
