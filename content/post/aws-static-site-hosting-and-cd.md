@@ -1,5 +1,5 @@
 ---
-title: "DevOps for Frontends: static site hosting and continuous delivery on AWS"
+title: "How to build continuous delivery pipeline for static sites on AWS"
 date: 2020-05-03T17:05:37+02:00
 comments: true
 summary: "By the end of this tutorial we are going to have a static site deployed to AWS, served by CDN and automatically redeployed on source code update."
@@ -11,8 +11,6 @@ tags:
 - jamstack
 categories:
 - devops
-series:
-- devops-for-frontends
 ---
 
 *This post is a first (hopefully not the last) installment of "DevOps for Frontends" series where I will try to show how to run cloud operations in a maintainable, hassle-free and affordable way.*

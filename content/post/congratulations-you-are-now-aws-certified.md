@@ -1,7 +1,7 @@
 ---
 title: '"Congratulations, You are Now AWS Certified!"'
 date: 2020-05-09T00:00:00+02:00
-summary: 'Going through the “AWS Solutions Architect - associate” certificate gives a great overview of the whole platform. You may not necessarily know how to set up a corporate network, but you will definitely know what\’s possible and where to start.'
+summary: 'Going through the “AWS Solutions Architect - associate” certificate gives a great overview of the whole platform. You may not necessarily know how to set up a corporate network, but you will definitely know what’s possible and where to start.'
 comments: true
 tags:
 - aws
