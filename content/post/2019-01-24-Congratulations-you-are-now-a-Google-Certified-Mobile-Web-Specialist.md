@@ -1,7 +1,7 @@
 ---
 title: '"Congratulations, you are now a Google Certified Mobile Web Specialist!"'
 date: 2019-01-24 17:11:43
-summary: Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
+summary: "!Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it."
 slug: 2019-01-24-2019-01-24-congratulations-you-are-now-a-google-certified-mobile-web-specialist
 tags:
 - google
@@ -11,7 +11,7 @@ categories:
 comments: true
 ---
 
-![badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85)
+![badge](/images/google_mobile_web_badge.png)[^1]
 
 Today I got an email with the same title as this post. Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
 
@@ -61,3 +61,5 @@ Once you're done, there is an exit interview, i.e. you record (audio + video) an
 It can take up to 45 days to receive a grade (I got it after 40 days) and up to 7 to receive actual certification ~~(still waiting for mine)~~.
 
 ![Certificate](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85)
+
+[^1]: [https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/12471549?key=8f900767955ce28b1273e535a28cab9be368be10bec61e04ed3b00cc31d8dd85)

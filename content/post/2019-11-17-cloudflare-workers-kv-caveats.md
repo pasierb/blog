@@ -2,19 +2,17 @@
 date: 2019-11-17T20:26:00.000+00:00
 comments: true
 title: "Cloudflare: Workers KV caveats"
-summary: At [EF Education First](https://www.ef.com/wwen/ "EF Education First homepage") we migrated some functionality from monolith application to Cloudflare worker. Part of it was figuring out how to use existing data (stored in DynamoDB) in the worker. Worker KV seemed like a perfect tool for the job
+summary: 'At [EF Education First](https://www.ef.com/wwen/ "EF Education First homepage") we migrated some functionality from monolith application to Cloudflare worker. Part of it was figuring out how to use existing data (stored in DynamoDB) in the worker. Worker KV seemed like a perfect tool for the job.'
 tags:
 - web
 - performance
 - cdn
 - cloudflare
 ---
-![](/images/cf_kv.png)
-_(Image source: https://hashnode.com/post/building-a-serverless-doc-writing-app-using-cloudflare-workers-and-kv-store-ck236aou1001e8os1esou2fac)_
+![](/images/cf_kv-banner.png)[^1]
 
-> Workers KV is a global, low-latency, key-value data store. It supports exceptionally high read volumes with low-latency, making it possible to build highly dynamic APIs and websites which respond as quickly as a cached static file would.
+> Workers KV is a global, low-latency, key-value data store. It supports exceptionally high read volumes with low-latency, making it possible to build highly dynamic APIs and websites which respond as quickly as a cached static file would. [^2]
 
-[https://developers.cloudflare.com/workers/reference/storage/overview/](https://developers.cloudflare.com/workers/reference/storage/overview/ "https://developers.cloudflare.com/workers/reference/storage/overview/")
 
 At [EF Education First](https://www.ef.com/wwen/ "EF Education First homepage") we migrated some functionality from monolith application to Cloudflare worker. Part of it was figuring out how to use existing data (stored in DynamoDB) in the worker. Worker KV seemed like a perfect tool for the job:
 
@@ -43,9 +41,8 @@ Put your data as a JSON on some publicly accessible origin and [cache it](https:
 
 ## "Cold cache" is slow and frequent
 
-> Workers KV read performance is determined by the amount of read-volume a given key receives. Maximum performance for a key is not reached unless that key is being read at least a couple times per minute in any given data center.
+> Workers KV read performance is determined by the amount of read-volume a given key receives. Maximum performance for a key is not reached unless that key is being read at least a couple times per minute in any given data center. [^3]
 
-[https://developers.cloudflare.com/workers/reference/storage/limitations/](https://developers.cloudflare.com/workers/reference/storage/limitations/ "https://developers.cloudflare.com/workers/reference/storage/limitations/")
 
 I saw response times for `NAMESPACE.get(key)` taking as long as \~500ms at times from Zurich edge location. It was not that big of a problem on North America, so we reached out to support asking about the slow response times:
 
@@ -74,3 +71,7 @@ Put your data as a JSON on some publicly accessible origin and [cache it](https:
 Overall Cloudflare is a great product but Worker KV is currently a bit disappointing. It is much-needed functionality but as of writing, it does not deliver. As a developer, you have to be very aware of its limitations and workaround your usage patterns to make sure you not introducing performance bottlenecks.
 
 China's availability problem is even bigger and unfortunately, I couldn't find a mention about it in the documentation. Considering there is no fallback solution provided by Cloudflare it yields KV unusable if you want to support customers in China.
+
+[^1]: Image source: https://hashnode.com/post/building-a-serverless-doc-writing-app-using-cloudflare-workers-and-kv-store-ck236aou1001e8os1esou2fac
+[^2]: [https://developers.cloudflare.com/workers/reference/storage/overview/](https://developers.cloudflare.com/workers/reference/storage/overview/)
+[^3]: [https://developers.cloudflare.com/workers/reference/storage/limitations/](https://developers.cloudflare.com/workers/reference/storage/limitations/)

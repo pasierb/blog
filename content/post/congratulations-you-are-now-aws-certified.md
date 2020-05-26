@@ -15,7 +15,7 @@ categories:
 >
 > Congratulations! You have successfully completed the requirements for the AWS Certified Solutions Architect - Associate certification. This certification, and all associated benefits will be valid through Dec 02, 2022.
 
-<a href="https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=V3P97712KJ1EQTWR" target="_blank"><img src="/images/AWS-SolArchitect-Associate_badge.png" alt="AWS Solutions Architect - associate badge"></a>
+<a href="https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=V3P97712KJ1EQTWR" target="_blank"><img src="/images/AWS-SolArchitect-Associate_badge-banner.png" alt="AWS Solutions Architect - associate badge"></a>
 
 ## Motivation
 
@@ -44,9 +44,7 @@ After that, I was grinding [AWS Certified Solutions Architect 2019 Practice Ques
 
 I took my exam during [AWS re:Invent](https://reinvent.awsevents.com/) 2019 conference in Las Vegas, Nevada. Everything went exactly as expected. We were asked to leave all the devices, assigned a seat and it was on. One hour later I was successfully finished (results are given immediately after submitting your sheet). I went straight to the AWS Certification Lounge to get my "certified" swag 😎.
 
-![](/images/reinventbadge.png)
-
-![](/images/awsreinventswag.jpeg)
+![](/images/aws_reinvent_swag.png)
 
 ## Was it worth it?
 
