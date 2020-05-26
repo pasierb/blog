@@ -3,7 +3,7 @@ title: "JS Quirks: NaN"
 date: 2018-10-28
 comments: true
 summary: JavaScript has many weird quirks, but `NaN` is, by far, my favourite. 
-tags:
+categories:
 - javascript
 ---
 

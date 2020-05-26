@@ -5,6 +5,10 @@ summary: 'Going through the “AWS Solutions Architect - associate” certificat
 comments: true
 tags:
 - aws
+- amazon
+- certificates
+categories:
+- career
 
 ---
 > Hi Michal Pasierbski,

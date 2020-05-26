@@ -2,6 +2,10 @@
 title: "Algorithms day 1 - Hanoi towers"
 date: 2017-07-09
 comments: true
+categories:
+- algorithms
+tags:
+- ruby
 ---
 
 To undetstand recursion, You must first undestand recursion

@@ -4,7 +4,10 @@ date: 2019-01-24 17:11:43
 summary: Let me explain **why** I took the exam, **how** does it work and **what** can you expect from it.
 slug: 2019-01-24-2019-01-24-congratulations-you-are-now-a-google-certified-mobile-web-specialist
 tags:
-- web platform
+- google
+- certificates
+categories:
+- career
 comments: true
 ---
 

@@ -2,6 +2,8 @@
 title:  "Dealing with procrastination #1 - daily TODO"
 date: 2017-07-05
 comments: true
+categories:
+- career
 ---
 
 TL;DR __write a list of tasks to complete for the next day__.

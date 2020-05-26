@@ -2,6 +2,8 @@
 title: "Dealing With procrastination #2 - Pomodoro"
 date: 2017-07-10
 comments: true
+categories:
+- career
 ---
 
 __Work__ for __25__ minutes, __rest 5__.

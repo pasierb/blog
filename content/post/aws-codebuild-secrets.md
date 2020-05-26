@@ -3,9 +3,12 @@ title: "DevOps for Frontends: handling secrets in AWS Codebuild with AWS Secrets
 date: 2020-05-23T10:06:26+02:00
 summary: "AWS has a service to securely store passwords, tokens, credentials or any other sensitive data - [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/). Fortunately Secrets Manager integrates seamlessly with CodeBuild through a `buildspec` file."
 tags:
-- devops-for-frontends
 - aws
+- amazon
+categories:
 - devops
+series:
+- devops-for-frontends
 comments: true
 ---
 
