@@ -11,6 +11,8 @@ tags:
 - jamstack
 categories:
 - devops
+images:
+- https://cdn.stencilbot.io/project?w=800&h=400&0.img=https%3A%2F%2Fmpasierbski.com%2Fimages%2Fblog-aws-header-bg.png&1.x=50&1.w=300&1.imgFit=contain&1.img=https%3A%2F%2Fmpasierbski.com%2Fimages%2Faws-cdk-text-logo.png&2.x=360&2.w=370&2.txt=How%20to%20build%20continuous%20delivery%20pipeline%20for%20static%20sites%20on%20AWS&2.color=%233e3838&2.fontSize=40&2.font=Ubuntu%3A700&2.lineH=1.1&2.txtAlign=center&2.valign=middle
 ---
 
 *This post is a first (hopefully not the last) installment of "DevOps for Frontends" series where I will try to show how to run cloud operations in a maintainable, hassle-free and affordable way.*

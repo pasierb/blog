@@ -8,6 +8,8 @@ tags:
 categories:
 - devops
 comments: true
+images:
+- https://cdn.stencilbot.io/project?w=800&h=400&0.img=https%3A%2F%2Fmpasierbski.com%2Fimages%2Fblog-aws-header-bg.png&1.x=50&1.w=300&1.imgFit=contain&1.img=https%3A%2F%2Fmpasierbski.com%2Fimages%2Faws-cdk-text-logo.png&2.x=360&2.w=370&2.txt=How%20to%20handle%20secrets%20in%20AWS%20Codebuild&2.color=%233e3838&2.fontSize=40&2.font=Ubuntu%3A700&2.lineH=1.1&2.txtAlign=center&2.valign=middle
 ---
 
 ## Problem
